@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Exercicio 11.2 </title>
+<meta charset="UTF-8">
+<script src="ex11_2.js"></script>
+<style>
+	body{
+			font-family:arial;
+			margin:0;
+	}
+	th{
+		padding: 5px 40px 0 40px;
+		text-align: center;
+		background-color: #ccc;
+	}
+	td{
+		padding: 5px 40px 0 40px;
+		text-align: center;
+		background-color: #eee;
+
+	}
+	label{
+	font-size:18px;
+	margin:0 0 0 10px;
+	
+	}
+	h1{
+	margin:0 0 0 10px;
+	background-color: #eee;
+	}
+	#botao{
+		background-color:#2E64FE;
+		color:white;
+		border-radius: 5px;
+	}
+	table,input{
+		margin:0 0 0 10px;
+	}
+	
+	
+
+</style>
+</head>
+
+<body>
+<h1> Contador de Letras </h1>
+<label><strong>Digite a Palavra:<strong><br>
+<input type="text" id="palavra">
+<input id="botao" type="button" onclick="verification(palavra)" value="verificar">
+</label>
+<br><br>
+<table>
+<thead>
+<th>Palavra</th><th>Letras A</th><th>% de letras A</th>
+</thead>
+<tbody id="tbody">
+
+</tbody>
+
+
+</table>
+
+
+<body>
+
+<html>
